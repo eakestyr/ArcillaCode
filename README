@@ -1,0 +1,43 @@
+________________________________________________________________________________
+[ARCILLA CODE]-----------------------------------------------------------------+
+]------------------------------------------------------------------------------|
+| Un editor de texto ligero escrito en Java utilizando Java Swing,             |
+| pensado para ser simple, mantenible y funcional. Esta es una reescritura     |
+| completa del editor original, que fue desarrollado en Clojure, con el        |
+| objetivo de mejorar lamantenibilidad y sostenibilidad a largo plazo.         |
+]------------------------------------------------------------------------------|
+
+________________________________________________________________________________
+[CARACTERÍSTICAS NUEVAS DE LA VERSIÓN ANTERIOR]--------------------------------+
+]------------------------------------------------------------------------------|
+| - Números de línea                                                           |
+| - Cambiar tamaño de fuentes                                                  |
+| - Cambiar la familia de fuentes                                              |
+]------------------------------------------------------------------------------|
+
+________________________________________________________________________________
+[INSTALACIÓN/EJECUCIÓN]--------------------------------------------------------+
+]------------------------------------------------------------------------------|
+| Tener instalado Java 8 o superior. A continuación, descargue o clone el      |
+| repositorio actual y ejecute el siguiente comando con Java ya instalado:     |
+]------------------------------------------------------------------------------|
+| > java -jar [nombrearchivo].jar                                              |
+]------------------------------------------------------------------------------|
+
+________________________________________________________________________________
+[SOFTWARE LIBRE Y AYUDA COMUNITARIA]-------------------------------------------+
+]------------------------------------------------------------------------------|
+| Si quieres ampliar y crear tu propia versión a partir de lo que ya se ha     |
+| construido, ¡siéntete libre! Lo único que te pido es que cites el proyecto   |
+| original si lo das a conocer en tus redes.                                   |
+|                                                                              |
+| Si encuentras algún fallo/error o simplemente quieres dar ideas de lo que se |
+| puede implementar, abre una nueva incidencia. Estaré agradecido por cualquier|
+| comentario (positivo o negativo). (^^)                                       |
+]------------------------------------------------------------------------------|
+
+________________________________________________________________________________
+[SCREENSHOOTS]-----------------------------------------------------------------+
+]------------------------------------------------------------------------------|
+| - https://postimg.cc/wtwbqzKS                                                |
+]------------------------------------------------------------------------------|
