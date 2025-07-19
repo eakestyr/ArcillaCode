@@ -77,7 +77,7 @@ public class MenubarFrame extends  JMenuBar {
         JMenuItem sobreInfoItem = new JMenuItem("Acerca de");
         sobreInfoItem.addActionListener((ActionEvent e) -> 
                 JOptionPane.showMessageDialog
-                    (null, "Editor de texto/código simplista\nCopyright © 2025 João L.", "About Arcilla", JOptionPane.INFORMATION_MESSAGE));
+                    (null, "Editor de texto/código simplista\nCopyright © 2025 João L.", "About Arcilla Code", JOptionPane.INFORMATION_MESSAGE));
         
         sobreMenu.add(sobreInfoItem);
         //----------------------------------------------------------------------
