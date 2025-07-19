@@ -32,12 +32,12 @@ public class MenubarActions {
 
         try {
             if (file.createNewFile()) {
-                JOptionPane.showMessageDialog(null, "¡Archivo creado con éxito!\n(" + file.getAbsolutePath() + ")", "Arcilla Info", JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(null, "¡Archivo creado con éxito!\n(" + file.getAbsolutePath() + ")", "Arcilla Code Info", JOptionPane.INFORMATION_MESSAGE);
             } else {
-                JOptionPane.showMessageDialog(null, "El archivo ya existe.", "Arcilla Advertencia", JOptionPane.WARNING_MESSAGE);
+                JOptionPane.showMessageDialog(null, "El archivo ya existe.", "Arcilla Code Advertencia", JOptionPane.WARNING_MESSAGE);
             }
         } catch (IOException ex) {
-            JOptionPane.showMessageDialog(null, "Error al crear un archivo\n" + ex.getMessage(), "Arcilla Error", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Error al crear un archivo\n" + ex.getMessage(), "Arcilla Code Error", JOptionPane.ERROR_MESSAGE);
         }
     }
     
@@ -64,7 +64,7 @@ public class MenubarActions {
             estadoBarra.setText("Abierto: " + file.getAbsolutePath());
 
         } catch (IOException ex) {
-            JOptionPane.showMessageDialog(null, "Error al abrir el archivo\n" + ex.getMessage(), "Arcilla Error", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Error al abrir el archivo\n" + ex.getMessage(), "Arcilla Code Error", JOptionPane.ERROR_MESSAGE);
         }
     }
     
@@ -85,7 +85,7 @@ public class MenubarActions {
             estadoBarra.setText("Archivo guardado: " + archivoActual.getAbsolutePath());
 
         } catch (IOException ex) {
-            JOptionPane.showMessageDialog(null, "Error al guardar el archivo\n" + ex.getMessage(), "Arcilla Error", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Error al guardar el archivo\n" + ex.getMessage(), "Arcilla Code Error", JOptionPane.ERROR_MESSAGE);
         }
     }
 
