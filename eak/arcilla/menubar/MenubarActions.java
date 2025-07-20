@@ -62,7 +62,6 @@ public class MenubarActions {
 
             editor.setText(content.toString());
             estadoBarra.setText("Abierto: " + file.getAbsolutePath());
-
         } catch (IOException ex) {
             JOptionPane.showMessageDialog(null, "Error al abrir el archivo\n" + ex.getMessage(), "Arcilla Code Error", JOptionPane.ERROR_MESSAGE);
         }
